@@ -7,10 +7,10 @@ variable "stage" {
 }
 
 variable "env" {
-  default = "no name"
+  default = "dev"
 }
 variable "env1" {
-  default = "dev"
+  default = "prod"
 }
 
 variable "allow_port_list" {
